@@ -5,13 +5,14 @@ importScripts(
     'https://www.gstatic.com/firebasejs/9.13.0/firebase-messaging-compat.js'
 )
 firebase?.initializeApp({
-    apiKey: '',
-    authDomain: '',
-    projectId: '',
-    storageBucket: '',
-    messagingSenderId: '',
-    appId: '',
-    measurementId: '',
+  apiKey: "AIzaSyCVM27TaagPA6JrLLskYxtDp7aQzmKljCM",
+  authDomain: "sopdia-foods.firebaseapp.com",
+  databaseURL: "https://sopdia-foods-default-rtdb.firebaseio.com",
+  projectId: "sopdia-foods",
+  storageBucket: "sopdia-foods.appspot.com",
+  messagingSenderId: "697258674622",
+  appId: "1:697258674622:web:bde0e548a1032fd8e051ef",
+  measurementId: "G-S25MSY3CFT"
 })
 
 // Retrieve firebase messaging
